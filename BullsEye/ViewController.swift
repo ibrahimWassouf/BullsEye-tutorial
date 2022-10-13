@@ -20,8 +20,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        startNewRound()
-        updateLabels()
+        startOver()
     }
 
     
@@ -29,19 +28,33 @@ class ViewController: UIViewController {
         let difference = abs(currentValue - targetValue)
         let points = 100 - difference
         let message = "You scored \(points) points"
+        let title: String
         score += points
         
-        
-        let alert = UIAlertController(title: "Hello World",
+        if difference == 0{
+            title = "Perfect!"
+        }
+        else if difference < 30{
+            title = "Almost!"
+        }
+        else{
+            title = "Oof"
+        }
+        let alert = UIAlertController(title: title,
                                   message: message,
                                       preferredStyle: .alert)
         let action = UIAlertAction(
             title: "OK",
             style: .default,
-            handler: nil)
+            handler: { _ in self.startNewRound()})
         
         alert.addAction(action)
         present(alert, animated: true, completion: nil)
+    }
+    
+    @IBAction func startOver() {
+        score = 0
+        roundNumber = 0
         startNewRound()
     }
     
