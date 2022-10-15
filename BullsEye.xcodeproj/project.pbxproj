@@ -16,6 +16,7 @@
 		8F9C5C1828E92153005D54C9 /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C5C1728E92153005D54C9 /* BullsEyeTests.swift */; };
 		8F9C5C2228E92154005D54C9 /* BullsEyeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C5C2128E92154005D54C9 /* BullsEyeUITests.swift */; };
 		8F9C5C2428E92154005D54C9 /* BullsEyeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C5C2328E92154005D54C9 /* BullsEyeUITestsLaunchTests.swift */; };
+		8FA59C7528FA33D900B807B0 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA59C7428FA33D900B807B0 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8F9C5C1D28E92154005D54C9 /* BullsEyeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9C5C2128E92154005D54C9 /* BullsEyeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeUITests.swift; sourceTree = "<group>"; };
 		8F9C5C2328E92154005D54C9 /* BullsEyeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8FA59C7428FA33D900B807B0 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				8F9C5C0228E92153005D54C9 /* SceneDelegate.swift */,
 				8F9C5C0428E92153005D54C9 /* ViewController.swift */,
 				8F9C5C0628E92153005D54C9 /* Main.storyboard */,
+				8FA59C7428FA33D900B807B0 /* AboutViewController.swift */,
 				8F9C5C0928E92153005D54C9 /* Assets.xcassets */,
 				8F9C5C0B28E92153005D54C9 /* LaunchScreen.storyboard */,
 				8F9C5C0E28E92153005D54C9 /* Info.plist */,
@@ -260,6 +263,7 @@
 			files = (
 				8F9C5C0528E92153005D54C9 /* ViewController.swift in Sources */,
 				8F9C5C0128E92153005D54C9 /* AppDelegate.swift in Sources */,
+				8FA59C7528FA33D900B807B0 /* AboutViewController.swift in Sources */,
 				8F9C5C0328E92153005D54C9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
